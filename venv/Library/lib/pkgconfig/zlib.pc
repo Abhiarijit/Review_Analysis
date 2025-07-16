@@ -1,0 +1,13 @@
+prefix=C:/sentiments_Analysis/venv/Library
+exec_prefix=C:/sentiments_Analysis/venv/Library
+libdir=C:/sentiments_Analysis/venv/Library/lib
+sharedlibdir=C:/sentiments_Analysis/venv/Library/lib
+includedir=C:/sentiments_Analysis/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
