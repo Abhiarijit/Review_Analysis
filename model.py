@@ -101,10 +101,8 @@ def predict_sentiment(text):
     return f"Sentiment: {sentiment} (Confidence: {confidence:.2f})"
 @app.route("/")
 def home():
-    return "This is my home page"
-@app.route("/senti")
-def model_page():  # Renamed this function
     return render_template("noob.html")
+
 
 @app.route("/output", methods=["POST"])
 def output():
